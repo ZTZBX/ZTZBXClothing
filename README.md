@@ -10,7 +10,7 @@ This is a stream Clothing for ZTZBX
 To install add `load_me_in_database.sql` in the database;
 
 #### **Shoes**
-- ID: *17* 
+- ID: *16* 
     - NAME: Air Jordan 11
 	    - Variant:
             - 0: black & red

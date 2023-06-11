@@ -20,6 +20,6 @@ INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`,
  'clothing-shoes', 'UNT'
 );
 
-INSERT INTO `itemidingame` (`item`, `id`) VALUES ('Air Jordan 11', '17');
+INSERT INTO `itemidingame` (`item`, `id`) VALUES ('Air Jordan 11', '16');
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('Air Jordan 11', '0', 'black & red');
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('Air Jordan 11', '1', 'white');
