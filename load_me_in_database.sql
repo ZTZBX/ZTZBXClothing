@@ -20,6 +20,18 @@ INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`,
  'clothing-shoes', 'UNT'
 );
 
+INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`, `type`, `unit`) VALUES (
+ 'NikeAirMax95',
+ 'NikeAirMax95.png',
+ 'Nike Air Max95',
+ 'Taking inspiration from the human body and 90s track aesthetics, the Air Max 95 mixes unbelievable comfort with fast-paced style. The wavy side panels add natural flow to any outfit while visible Nike Air in the heel and forefoot delivers performance comfort.',
+ 'clothing-shoes', 'UNT'
+);
+
 INSERT INTO `itemidingame` (`item`, `id`) VALUES ('AirJordan11', '16');
+INSERT INTO `itemidingame` (`item`, `id`) VALUES ('NikeAirMax95', '17');
+
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('AirJordan11', '0', 'black & red');
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('AirJordan11', '1', 'white');
+
+INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('NikeAirMax95', '0', 'white & green');

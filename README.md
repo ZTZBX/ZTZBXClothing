@@ -15,3 +15,8 @@ To install add `load_me_in_database.sql` in the database;
 	    - Variant:
             - 0: black & red
 	        - 1: white
+            
+- ID: *17* 
+    - NAME: NikeAirMax95 
+	    - Variant:
+            - 0: white & green
