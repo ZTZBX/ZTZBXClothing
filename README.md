@@ -25,7 +25,7 @@ To install add `load_me_in_database.sql` in the database;
 - ID: *16*
   - Namen: CroppedPants
     - Variant:
-            - 0: black
+            - 0: Brown
 
 #### **Hair**
 - ID: *16* 
@@ -52,7 +52,7 @@ To install add `load_me_in_database.sql` in the database;
 - ID: *16*
   - Namen: CroppedPants
     - Variant:
-            - 0: black
+            - 0: Brown
   
 
 #### **Shoes** 
