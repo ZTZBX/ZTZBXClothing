@@ -62,3 +62,15 @@ INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`,
 
 INSERT INTO `itemidingame` (`item`, `id`) VALUES ('CroppedPants', '16');
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('CroppedPants', '0', 'Brown');
+
+
+INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`, `type`, `unit`, `weight`) VALUES (
+ 'BaggyTrack',
+ 'BaggyTrack.png',
+ 'Baggy Track',
+ 'Track Pants are like Joggers but are usually made from materials like polyester that is smooth, soft, comfortable and wrinkle-free. These are usually worn for track events.',
+ 'clothing-pants', 'UNT', '1500'
+);
+
+INSERT INTO `itemidingame` (`item`, `id`) VALUES ('BaggyTrack', '17');
+INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('BaggyTrack', '0', 'Black');
