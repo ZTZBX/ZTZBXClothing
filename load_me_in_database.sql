@@ -11,6 +11,8 @@ CREATE TABLE itemidingame (
     FOREIGN KEY (item) REFERENCES itemsmetadata(`name`)
 )ENGINE=InnoDB;
 
+/* SHOES */
+
 /* Air Jordan 11 */
 INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`, `type`, `unit`) VALUES (
  'AirJordan11',
@@ -28,6 +30,7 @@ INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`,
  'clothing-shoes', 'UNT'
 );
 
+
 INSERT INTO `itemidingame` (`item`, `id`) VALUES ('AirJordan11', '16');
 INSERT INTO `itemidingame` (`item`, `id`) VALUES ('NikeAirMax95', '17');
 
@@ -35,3 +38,18 @@ INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('A
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('AirJordan11', '1', 'white');
 
 INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('NikeAirMax95', '0', 'white & green');
+
+
+
+/* PANTS */
+
+INSERT INTO `itemsmetadata` (`name`, `image`, `descriptiontitle`, `description`, `type`, `unit`) VALUES (
+ 'CroppedPants',
+ 'CroppedPants.png',
+ 'Cropped Pants',
+ 'The crop pant is not your traditional pair of womens dress slacks or work pants. Rather, these pants are elegantly tailored with a slim fit that falls to just above the ankle.',
+ 'clothing-pants', 'UNT'
+);
+
+INSERT INTO `itemidingame` (`item`, `id`) VALUES ('CroppedPants', '16');
+INSERT INTO `itemvariations` (`item`, `variationid`, `variationname`) VALUES ('CroppedPants', '0', 'black');

@@ -20,6 +20,13 @@ To install add `load_me_in_database.sql` in the database;
     - NAME: NikeAirMax95 
 	    - Variant:
             - 0: white & green
+  
+#### **Pants**
+- ID: *16*
+  - Namen: CroppedPants
+    - Variant:
+            - 0: black
+
 #### **Hair**
 - ID: *16* 
     - NAME: Dreds
@@ -41,6 +48,13 @@ To install add `load_me_in_database.sql` in the database;
 
 
 ### Female
+#### **Pants**
+- ID: *16*
+  - Namen: CroppedPants
+    - Variant:
+            - 0: black
+  
+
 #### **Shoes** 
 - ID: *16* 
     - NAME: AirJordan11
@@ -52,3 +66,22 @@ To install add `load_me_in_database.sql` in the database;
     - NAME: NikeAirMax95 
 	    - Variant:
             - 0: white & green
+
+#### **Hair**
+- ID: *16* 
+    - NAME: AdrienneFHair
+            
+- ID: *17* 
+    - NAME: JanetsFHair 
+
+- ID: *18* 
+    - NAME: EmilyFHair 
+
+- ID: *19* 
+    - NAME: BrazilianFHair 
+
+- ID: *20* 
+    - NAME: AliceFHair 
+
+- ID: *21* 
+    - NAME: GlamFHair 
